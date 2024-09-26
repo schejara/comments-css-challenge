@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid white;
+    margin: 30px;
+    font-size: 16px;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    font-family: 'Rubik', sans-serif; 
+    
+       
+       
+   }
+   
+   body{
+       margin : 100px;
+   }
+   .attribution {
+       font-size: 11px; text-align: center; 
+      }
+      .attribution a { 
+          color: hsl(228, 45%, 44%); 
+      }
+   
+     p{
+       font-size: 16px;
+     }  
+     img{
+       display: flex;
+       justify-content: flex-start;
+     }
+   
