@@ -68,8 +68,8 @@ You can reference these colors in your CSS, eg:
 The font is already setup in your [index.html](./index.html). Example usage:
 
 ```css
-.someElement {
-    font-family: 'Rubik', sans-serif;
+.someElement {  font-family: 'Rubik', sans-serif;
+  
 }
 ```
 
