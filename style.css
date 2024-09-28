@@ -1,33 +1,119 @@
-div {
+
+.center {
+    margin: auto    ;
+    margin-bottom: 10px;
+    width: 50%;
+    border: 3px solid rgb(240, 243, 240);
+    padding: 10px;
+    height: 130px;
+  
+
+  }
+  .reply {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    border: 1px solid white;
-    margin: 30px;
-    font-size: 16px;
-    padding: 20px 20px;
-    background-color: whitesmoke;
-    font-family: 'Rubik', sans-serif; 
+    justify-content: flex-end; 
+
+    margin-right: 8px;   
+    margin-bottom: 10px; 
+    padding: 10px;
+    margin-left: 230px;
+       
+  }
+   .blue{
+    color: blue;
+    font-size: 14pt;
+    padding-top: 4px;
+   }
+
+  
+  
+   .image{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding-top: 0px;
     
-       
-       
    }
    
    body{
-       margin : 100px;
+       margin : 60px;
    }
    .attribution {
        font-size: 11px; text-align: center; 
       }
       .attribution a { 
           color: hsl(228, 45%, 44%); 
-      }
-   
-     p{
-       font-size: 16px;
-     }  
-     img{
+      } 
+ 
+     
+     
+     .btn{
        display: flex;
        justify-content: flex-start;
-     }
-   
+       width : 30px    
+
+     } 
+     
+      .row {
+        display: flex;
+        align-items: flex-start;
+        margin-top: -50px;
+        padding-top: -50px;
+       
+    }
+      
+      .name {
+        margin-right: 10px; 
+        font-weight: bold; 
+      }
+      
+      .time {
+        font-size: 14px; 
+        color: gray; 
+      }
+      
+      .click{
+        margin-left: 8px;         
+        padding: 10px;
+        padding-left: 8px;
+        height: 15px; 
+      }
+      .text{
+      padding-top: 20px;
+       margin-left: 70px;
+       
+       
+      }
+      .last {
+        display: flex;
+       justify-content: space-between;
+       
+      }
+      .send{
+        margin-top: 20px;
+        background-color: blue;
+        color : white;
+
+      }
+      .comment{ 
+       display: flex;       
+       margin-top: 20px;
+       margin-bottom: 10px;
+       height: 80px;
+        width: 700px;
+       border: 2px solid lightgray;
+       
+       
+      }
+      .lastpic{
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .msg{
+         margin-top: 20px;
+         margin-bottom: 20px;
+
+      }
+      
